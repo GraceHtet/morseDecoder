@@ -42,7 +42,7 @@ def decode_char(word)
 end
 
 def decode_word(phrase)
-  phrase.split.map { |x| decode_char(x) }.join
+  phrase.split.map { |x| decode_char(x) }
 end
 
 def decode(string)
